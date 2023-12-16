@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(12, 2, 69);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 208, 189);
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: white;
+    margin: 0 23px;
+
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    align-items: center;
+
+}
+
+.first div {
+    width: 30%;
+
+}
+
+.leftSection {
+    font-size: 3rem;
+    margin: 50px 0;
+}
+.leftSection .btn{
+    display: flex;
+    padding: 20px 0px;
+    
+}
+.leftSection .btn .btn1{
+
+    background-color: rgb(82, 9, 146);
+    color: rgb(220, 244, 240);
+    padding: 10px 24px;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.rightSection img {
+    width: 80%;
+    margin: 50px 0;
+}
+
+.purple {
+    color: rgb(117, 13, 117);
+}
+
+#element {
+    color: aqua;
+}
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    
+}
+
+.SecondSection h1{
+    font-size: 2rem;
+
+}
+
+hr{
+    margin: 160px;
+}
+.text-gray{
+    color: gray;
+}
+ 
+.image-top{
+    width: 30px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+ 
+footer{
+    background-color: purple;
+    height: 200px;
+   
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;;
+    justify-content: center;
+    
+}
+.footer >div{
+    width: 223px;
+
+}
+
+footer .footer-rights{
+    text-align: center;
+    column-gap: gray;
+}
+
+.secondSection img {
+    width: 30%;
+    margin: 60px 0;
+}
+
+.secondSection h1 {
+    width: 100%;
+    margin: 50px 0px;
+}
+
+/* Footer design */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+footer{
+    background-color: rgb(103, 11, 94);
+}
+.footer-container{
+    width: 100%;
+    padding: 70px 30px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50px;
+}
+.social-icons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.social-icons a:hover {
+    color:#111;
+    transition: 0.5s;
+}
+.social-icons a:hover i{
+    color:blue;
+    transition: 0.5s;
+}
+
+.footer-container .footer-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom p{
+    color: rgb(15, 13, 13);
+}
+
+/* Projects Images */
+.row img {
+    cursor: pointer;
+    border-radius: 10%;
+}
+.column {
+    float: left;
+    width: 40%;
+    padding: 5px;
+    position: relative;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.content{
+    position: relative;
+    top: 0%;
+    padding: 20px;
+}
+
+/* Secon Section left and right */
+
+.second{
+         margin: 1rem;
+         padding: 1rem 1rem;
+         text-align: center;
+}
+.tags{
+    display: inline-block;
+    padding: 1rem 1rem;
+ }
